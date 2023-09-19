@@ -10,6 +10,9 @@
     <packaging>pom</packaging>
     <modules>
         <module>proj_base_quickly</module>
+        <module>proj_crud_practice</module>
+        <module>proj_multitable_01</module>
+        <module>proj_other_extend</module>
     </modules>
 
     <properties>
@@ -38,6 +41,16 @@
             <artifactId>junit-jupiter-api</artifactId>
             <version>5.10.0</version>
             <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.18.28</version>
+        </dependency>
+        <dependency>
+            <groupId>com.github.pagehelper</groupId>
+            <artifactId>pagehelper</artifactId>
+            <version>5.3.3</version>
         </dependency>
 
     </dependencies>
